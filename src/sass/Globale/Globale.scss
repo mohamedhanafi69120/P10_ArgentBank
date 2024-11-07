@@ -1,3 +1,5 @@
+@import "../Utils/Variables.scss";
+
 /**Reset***/
 * {
   margin: 0;
@@ -12,9 +14,8 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: $thirdColor;
 }
-
 .sr-only {
   border: 0 !important;
   clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
@@ -28,9 +29,3 @@ html {
   width: 1px !important;
   white-space: nowrap !important; /* 3 */
 }
-
-header {
-  width: 100%;
-}
-
-/*# sourceMappingURL=style.css.map */

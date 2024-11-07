@@ -1,0 +1,36 @@
+@import "../../sass/Utils/Variables.scss";
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.navSign {
+  font-size: 1.2em;
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+  }
+}
+
+.navLogo {
+  color: $thirdColor;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.navLogo img {
+  width: 200px;
+  max-width: 100%;
+}
+
+.faCircleUser {
+  font-size: 1.6em;
+  padding-right: 0.5em;
+}
