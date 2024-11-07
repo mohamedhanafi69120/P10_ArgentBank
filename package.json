@@ -7,11 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sass": "sass --watch ./src/sass/main.scss:./src/style/style.css"
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "sass": "^1.80.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
