@@ -1,4 +1,4 @@
-@import "../Utils/Variables.scss";
+@use "../Utils/Variables.scss";
 
 /**Reset***/
 * {
@@ -14,7 +14,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: $thirdColor;
+  color: Variables.$thirdColor;
 }
 .sr-only {
   border: 0 !important;

@@ -1,0 +1,16 @@
+@use "../../sass/Utils/Variables.scss";
+footer {
+  border-top: 2px solid Variables.$sixthColor;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 1.5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  p {
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+  }
+}

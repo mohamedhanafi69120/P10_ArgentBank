@@ -1,4 +1,4 @@
-@import "../../sass/Utils/Variables.scss";
+@use "../../sass/Utils/Variables.scss";
 
 nav {
   display: flex;
@@ -18,7 +18,7 @@ nav {
 }
 
 .navLogo {
-  color: $thirdColor;
+  color: Variables.$thirdColor;
   font-weight: bold;
 
   &:hover {
