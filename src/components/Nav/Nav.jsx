@@ -11,7 +11,7 @@ const Nav = () => {
         <img src={Logo} alt="logo-agrentbank" className="logo" />
         <h1 className="sr-only">Argent Bank</h1>
       </NavLink>
-      <NavLink className="navSign">
+      <NavLink to="SignIn" className="navSign">
         <FontAwesomeIcon icon={faCircleUser} className="faCircleUser" />
         Sign in
       </NavLink>

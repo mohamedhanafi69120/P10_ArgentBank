@@ -41,7 +41,12 @@ nav {
 }
 
 .navSign {
-  font-size: 1.2em;
+  margin-right: 1rem;
+  font-size: 1.1em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #2c3e50;
 }
 .navSign:hover {
   text-decoration: underline;
@@ -104,7 +109,15 @@ footer {
   border-top: 2px solid #ccc;
   display: flex;
   justify-content: center;
-  padding: 1.5rem;
+  padding: 2rem 0 1.5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0;
 }
 
 .Features {
@@ -116,14 +129,28 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 1.2em;
-  margin: 0 auto;
+  margin: 40px auto;
   padding: 2.5em;
 }
-.Features .img {
-  width: 152px;
+.Features img {
+  width: 200px;
   border: 10px solid #00bc77;
   border-radius: 50%;
   padding: 1em;
+}
+.Features h3 {
+  color: #000;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.Features p {
+  font-size: 1.2em;
+}
+
+.mainBg {
+  width: 100%;
+  background-color: #12002b;
 }
 
 /*# sourceMappingURL=style.css.map */

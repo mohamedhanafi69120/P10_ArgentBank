@@ -1,0 +1,8 @@
+@use "../../sass/Utils/Variables.scss";
+
+.mainBg {
+  width: 100%;
+  height: 87.7vh;
+  background-color: Variables.$seventhColor;
+  padding: 3rem 0 5rem 0;
+}

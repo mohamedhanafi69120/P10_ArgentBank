@@ -1,0 +1,55 @@
+@use "../../sass/Utils/Variables.scss";
+
+.form {
+  background-color: Variables.$secondaryColor;
+  width: 350px;
+  margin: 3rem auto 0 auto;
+  padding: 2rem;
+
+  .faCircleUser {
+    font-size: 1.7em;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin: 0.5em 0 1em 0;
+  }
+
+  .inputWapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 1em;
+    label {
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+
+    input {
+      padding: 0.7em;
+      font-size: 1.2em;
+    }
+  }
+
+  .inputRemember {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    label {
+      margin-left: 0.5em;
+    }
+  }
+
+  .submitbutton {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 1em;
+    border-color: Variables.$fourthColor;
+    background-color: Variables.$fourthColor;
+    color: Variables.$secondaryColor;
+    text-decoration: underline;
+  }
+}
