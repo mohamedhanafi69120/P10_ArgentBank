@@ -1,0 +1,67 @@
+@use "../../sass/Utils/Variables.scss";
+
+.EditInfos {
+  color: Variables.$secondaryColor;
+  margin-bottom: 30px;
+
+  .EditInfos_form {
+    margin: 30px auto 30px auto;
+    width: 80%;
+    background-color: Variables.$secondaryColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      color: Variables.$primaryColor;
+      padding: 15px 0;
+    }
+  }
+
+  .formLabel {
+    color: Variables.$primaryColor;
+    margin-right: 10px;
+    font-size: 1em;
+    margin-bottom: 16px;
+  }
+
+  .formInput {
+    width: 160px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+  }
+
+  .EditInfos_submit {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+  }
+
+  .EditInfos_submit-sub,
+  .EditInfos_submit-cancel {
+    width: 140px;
+    background-color: Variables.$fourthColor;
+    padding: 10px;
+    color: Variables.$secondaryColor;
+    border: none;
+    border: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+
+  .EditButton {
+    background-color: Variables.$fourthColor;
+    border-color: Variables.$fourthColor;
+    color: Variables.$secondaryColor;
+    font-weight: bold;
+    margin-top: 1em;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
