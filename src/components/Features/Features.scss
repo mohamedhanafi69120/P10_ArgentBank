@@ -3,6 +3,11 @@
 .Features {
   display: flex;
 
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
   .F-Items {
     width: 33%;
     display: flex;
@@ -11,6 +16,11 @@
     gap: 1.2em;
     margin: 40px auto;
     padding: 2.5em;
+
+    @media screen and (max-width: 768px) {
+      padding: 0em 1em;
+      width: 100%;
+    }
   }
 
   img {

@@ -4,11 +4,20 @@
   position: relative;
   width: 100%;
 
+  @media screen and (max-width: 768px) {
+    height: 300px;
+  }
+
   .heroBanner {
     height: 500px;
     width: 100%;
     object-fit: cover;
     object-position: 0% 37%;
+
+    @media screen and (max-width: 768px) {
+      height: 300px;
+      object-position: 80% 50%;
+    }
   }
 }
 
@@ -22,16 +31,32 @@
   border-radius: 8px;
   max-width: 420px;
 
+  @media screen and (max-width: 768px) {
+    width: 170px;
+    padding: 1em;
+    top: 4%;
+    right: 6%;
+  }
+
   .subtitle {
     font-size: 2em;
     font-weight: bold;
     margin: 0;
     line-height: 1.2;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1em;
+    }
   }
 
   .text {
     font-size: 1.5em;
     margin-top: 8px;
     line-height: 1.4;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 10px;
+      font-size: 0.9em;
+    }
   }
 }

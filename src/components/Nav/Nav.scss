@@ -5,6 +5,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 5px 20px;
+  width: 100%;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 1em;
+  }
 }
 
 .navSign {
@@ -33,6 +38,9 @@ nav {
 .navLogo img {
   width: 200px;
   max-width: 100%;
+  @media screen and (max-width: 768px) {
+    width: 130px;
+  }
 }
 
 .faCircleUser {
