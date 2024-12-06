@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**Reset***/
 * {
   margin: 0;
@@ -195,6 +196,9 @@ footer p {
   color: #fff;
   text-decoration: underline;
 }
+.form .messageConnexion {
+  color: #fff;
+}
 
 .mainBg {
   width: 100%;
@@ -275,6 +279,74 @@ footer p {
   .transaction-button {
     width: 200px;
   }
+}
+.EditInfos {
+  color: #fff;
+  margin: -20px auto 0 auto; /* Applique une marge négative pour remonter le bloc */
+  width: fit-content; /* Adapte la largeur au contenu */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrage horizontal */
+  padding: 20px; /* Espacement interne légèrement réduit */
+}
+.EditInfos h1,
+.EditInfos h2 {
+  text-align: center; /* Centrage des titres */
+  font-size: 1.8em; /* Taille ajustée pour le titre */
+  margin-bottom: 8px; /* Réduction de l'espace sous le titre */
+}
+.EditInfos .EditInfos_form {
+  margin: 0 auto; /* Centrage horizontal parfait */
+  padding: 15px; /* Espacement interne réduit */
+  width: 90%; /* Largeur ajustée pour les petits écrans */
+  max-width: 450px; /* Largeur maximale */
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alignement à gauche des champs */
+  gap: 8px; /* Espacement réduit entre les éléments */
+}
+.EditInfos .EditInfos_form label {
+  color: #000;
+  font-size: 1.2em; /* Taille réduite pour compacité */
+  margin-bottom: 5px;
+}
+.EditInfos .EditInfos_form .formInput {
+  width: 100%; /* Champ s'étend sur toute la largeur disponible */
+  max-width: 350px; /* Largeur maximale réduite */
+  padding: 8px; /* Hauteur ajustée */
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1em;
+}
+.EditInfos .EditInfos_form .EditInfos_submit {
+  display: flex;
+  justify-content: space-between; /* Espacement entre les boutons */
+  width: 100%; /* Les boutons occupent toute la largeur */
+  margin-top: 8px; /* Réduction de l'espace au-dessus des boutons */
+}
+.EditInfos .EditInfos_form .EditInfos_submit-sub,
+.EditInfos .EditInfos_form .EditInfos_submit-cancel {
+  width: 48%; /* Boutons compacts */
+  padding: 8px 0; /* Hauteur ajustée */
+  background-color: #00bc77;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  text-align: center;
+}
+.EditInfos .EditButton {
+  background-color: #00bc77;
+  border-color: #00bc77;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 8px;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 0.9em;
 }
 
 /*# sourceMappingURL=style.css.map */

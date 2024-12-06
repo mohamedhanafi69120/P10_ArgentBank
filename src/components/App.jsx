@@ -4,20 +4,24 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import SignIn from "../Pages/SignIn/SignIn";
 import User from "../Pages/User/User";
+import { Provider } from "react-redux";
+import store from "../redux/store";
 
 const App = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/SignIn" element={<SignIn />} />
-          <Route path="/User" element={<User />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-    </div>
+    <Provider store={store}>
+      <div>
+        <BrowserRouter>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/SignIn" element={<SignIn />} />
+            <Route path="/User" element={<User />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </div>
+    </Provider>
   );
 };
 

@@ -11,9 +11,9 @@ nav {
   margin-right: 1rem;
   font-size: 1.1em;
   font-weight: bold;
+  color: Variables.$thirdColor;
   display: flex;
   align-items: center;
-  color: Variables.$thirdColor;
 
   &:hover {
     text-decoration: underline;
@@ -38,4 +38,18 @@ nav {
 .faCircleUser {
   font-size: 1.6em;
   padding-right: 0.5em;
+}
+
+.faSignOut {
+  font-size: 1.1em;
+  margin-right: 0.5rem;
+  font-weight: bold;
+  color: Variables.$thirdColor;
+}
+
+.userName {
+  padding-right: 1.5rem;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: Variables.$thirdColor;
 }
