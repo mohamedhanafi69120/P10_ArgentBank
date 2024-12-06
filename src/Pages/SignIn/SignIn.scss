@@ -5,4 +5,8 @@
   height: 87.7vh;
   background-color: Variables.$seventhColor;
   padding: 3rem 0 5rem 0;
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 110px;
+  }
 }
