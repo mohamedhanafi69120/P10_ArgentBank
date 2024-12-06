@@ -46,6 +46,10 @@ nav {
 .faCircleUser {
   font-size: 1.6em;
   padding-right: 0.5em;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.2em;
+  }
 }
 
 .faSignOut {
@@ -53,6 +57,19 @@ nav {
   margin-right: 0.5rem;
   font-weight: bold;
   color: Variables.$thirdColor;
+
+  @media screen and (max-width: 768px) {
+    font-size: 0.8em;
+    margin-right: 0.3em;
+  }
+}
+
+.faSignouticon {
+  color: Variables.$thirdColor;
+  padding-right: 0.5em;
+  @media screen and (max-width: 768px) {
+    padding-right: 0.3em;
+  }
 }
 
 .userName {
@@ -60,4 +77,9 @@ nav {
   font-size: 1.1em;
   font-weight: bold;
   color: Variables.$thirdColor;
+
+  @media screen and (max-width: 768px) {
+    padding-right: 0.5em;
+    font-size: 1em;
+  }
 }
