@@ -2,6 +2,7 @@
 
 .Features {
   display: flex;
+  padding-bottom: 5em;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
