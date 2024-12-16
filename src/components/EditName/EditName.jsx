@@ -73,8 +73,9 @@ const EditName = () => {
               id="userName"
               name="userName"
               className="formInput"
-              value={userName}
-              onChange={(e) => setUserName(e.target.value)}
+              value={userName} //on a mis l'attribue value qui correspondre a ce qui est stocker dans V username    /
+              onChange={(e) => setUserName(e.target.value)} //on va utuliser la fonction onchange qui va detecter le champs 
+              // de saissie est rempli et qui va executer la fonction setusername pour mette a jour le contenu de variable username avec l'information saissie par litulisateur /
             />
           </div>
           <div className="EditInfos_wrapper">

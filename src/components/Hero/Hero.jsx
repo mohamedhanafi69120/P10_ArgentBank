@@ -1,5 +1,5 @@
 import React from "react";
-import Banktree from "../../assets/img/bank-tree.jpeg";
+import Banktree from "../../assets/img/bank-tree.webp";
 
 const Hero = () => {
   return (
