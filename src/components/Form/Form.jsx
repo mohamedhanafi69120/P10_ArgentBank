@@ -74,7 +74,7 @@ const Form = () => {
           <input
             type="text"
             id="username"
-            value={email}
+            value={email} /*dans l'attribue value on utilise le contenu de la variable email comme valeur de champ de saissie  */
             onChange={handleEmailUpdate}
           />
         </div>
