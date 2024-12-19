@@ -17,8 +17,8 @@ const EditName = () => {
     }
     if (isEditingUser) {
       setUserName(userData.userName || "");
-      setFirstName(""); // Laisser le prénom vide par défaut
-      setLastName(""); // Laisser le nom vide par défaut
+      setFirstName(userData.firstName || "");
+      setLastName(userData.lastName || "");
     }
   }, [userData, token, isEditingUser]);
 

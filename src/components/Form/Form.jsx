@@ -74,8 +74,10 @@ const Form = () => {
           <input
             type="text"
             id="username"
-            value={email} /*dans l'attribue value on utilise le contenu de la variable email comme valeur de champ de saissie  */
-            onChange={handleEmailUpdate}
+            value={
+              email
+            } /*dans l'attribue value on utilise le contenu de la variable email comme valeur de champ de saissie  */
+            onChange={handleEmailUpdate} /**l'evenement */
           />
         </div>
         <div className="inputWapper">
