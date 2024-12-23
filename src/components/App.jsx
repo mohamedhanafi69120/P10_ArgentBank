@@ -4,6 +4,7 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import SignIn from "../Pages/SignIn/SignIn";
 import User from "../Pages/User/User";
+import Error from "../Pages/Error/Error";
 import { Provider } from "react-redux";
 import store from "../redux/store";
 
@@ -17,6 +18,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/SignIn" element={<SignIn />} />
             <Route path="/User" element={<User />} />
+            <Route path="/*" element={<Error />} />
           </Routes>
           <Footer />
         </BrowserRouter>

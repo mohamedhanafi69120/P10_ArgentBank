@@ -1,0 +1,21 @@
+.error {
+  height: 87.7vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 18rem;
+    @media screen and (max-width: 768px) {
+      font-size: 4rem;
+    }
+  }
+  p {
+    font-size: 2rem;
+    @media screen and (max-width: 768px) {
+      font-size: 1.6rem;
+    }
+  }
+}
