@@ -2,7 +2,7 @@
   "name": "p10-argentbank",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "homepage": "https://mohamedhanafi69120.github.io/P10_ArgentBank/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

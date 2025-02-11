@@ -3,11 +3,13 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/P10_ArgentBank/", // ⚠️ Remplace "P10_ArgentBank" par le nom EXACT de ton repo GitHub
+  base: "./", // ⚠️ IMPORTANT : base "./" pour éviter la 404 sur GitHub Pages
   build: {
     outDir: "dist",
   },
   server: {
     open: true,
+    host: true,
+    port: 5173,
   },
 });
