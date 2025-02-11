@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "./", // 🚀 Correction ici : base "./" pour GitHub Pages
+  base: "/P10_ArgentBank/", // ⚠️ Remplace "P10_ArgentBank" par le nom EXACT de ton repo GitHub
   build: {
     outDir: "dist",
   },
